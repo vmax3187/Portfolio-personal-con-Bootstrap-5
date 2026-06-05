@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Currículum Vitae de Francisco Ángel Pérez Ponce - Desarrollador de Aplicaciones Web" />
+        <meta name="author" content="Francisco Ángel Pérez Ponce" />
+        <title>Portfolio Profesional - Francisco Ángel Pérez Ponce</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" />
+        
+        <style>
+            /* CAMBIO DE COLOR: Reemplazo del naranja por Azul Oscuro Profesional */
+            :root {
+                --bs-primary: #1f3a60 !important;
+            }
+            .text-primary {
+                color: #1f3a60 !important;
+            }
+            .bg-primary {
+                background-color: #1f3a60 !important;
+            }
+            .btn-primary {
+                background-color: #1f3a60 !important;
+                border-color: #1f3a60 !important;
+                color: #ffffff !important;
+            }
+            .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+                background-color: #152742 !important;
+                border-color: #152742 !important;
+                color: #ffffff !important;
+            }
+            .btn-outline-primary {
+                color: #1f3a60 !important;
+                border-color: #1f3a60 !important;
+            }
+            .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+                background-color: #1f3a60 !important;
+                border-color: #1f3a60 !important;
+                color: #ffffff !important;
+            }
+            .social-icons .social-icon:hover {
+                background-color: #1f3a60 !important;
+            }
+            
+            /* Estilos de estructura de secciones */
+            .resume-section {
+                padding-top: 3rem !important;
+                padding-bottom: 3rem !important;
+            }
+            @media (min-width: 992px) {
+                .resume-section {
+                    min-height: 75vh !important; 
+                    padding-top: 4.5rem !important;
+                    padding-bottom: 4.5rem !important;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            /* Margen extra inferior para facilitar la activación del menú mediante ScrollSpy */
+            #contact {
+                padding-bottom: 25vh !important; 
+            }
+            /* Clases de utilidad personalizadas reutilizables */
+            .icon-size-tech {
+                font-size: 2.5rem !important;
+            }
+            .max-w-600 {
+                max-width: 600px;
+            }
+            .progress-custom-height {
+                height: 12px;
+            }
+            .project-card {
+                transition: transform 0.2s ease-in-out;
+            }
+            .project-card:hover {
+                transform: translateY(-5px);
+            }
+            .carousel-img-fixed {
+                height: 250px;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body id="page-top" data-bs-spy="scroll" data-bs-target="#sideNav" data-bs-offset="100">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" aria-label="Menú principal de navegación">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Francisco Ángel Pérez Ponce</span>
+                <span class="d-none d-lg-block">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="Fotografía de perfil de Francisco Ángel Pérez Ponce" width="160" height="160" />
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Cambiar navegación móvil"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav" id="navbarNavList">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Formación</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#languages">Idiomas</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="container-fluid p-0">
+            
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Francisco Ángel
+                        <span class="text-primary">Pérez Ponce</span>
+                    </h1>
+                    <div class="subheading mb-3">
+                        Calle San Sebastián 67 Bajo, Cantillana (Sevilla) · 691 1321 80 ·
+                        <a href="mailto:franangelper@gmail.com" aria-label="Enviar correo a franangelper@gmail.com">franangelper@gmail.com</a>
+                    </div>
+                    <p class="lead mb-4">Soy un futuro Desarrollador de Aplicaciones Web comprometido, proactivo y responsable. Cuento con una sólida base técnica en sistemas microinformáticos y redes, especializado en el despliegue de interfaces adaptativas, resolución eficaz de problemas frontend/backend y con total iniciativa para aportar valor inmediato en entornos tecnológicos profesionales.</p>
+                    
+                    <div class="mb-4">
+                        <a href="assets/cv-francisco-angel.pdf" download="CV_Francisco_Angel_Perez_Ponce.pdf" class="btn btn-primary btn-lg shadow-sm" aria-label="Descargar currículum vitae en formato PDF">
+    <i class="fas fa-file-download me-2" aria-hidden="true"></i> Descargar CV (PDF)
+</a>
+                    </div>
+
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://github.com/vmax3187" target="_blank" rel="noopener noreferrer" title="Perfil de GitHub (Se abre en una nueva pestaña)"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/francisco-%C3%A1ngel-perez-ponce-12903b409/" target="_blank" rel="noopener noreferrer" title="Perfil de LinkedIn (Se abre en una nueva pestaña)"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-4">Experiencia</h2>
+                    <article class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Colaboración / Prácticas Técnicas</h3>
+                            <div class="subheading mb-2">CaixaBank Tech</div>
+                            <p class="mb-0">Desempeño de funciones en el ámbito tecnológico y de desarrollo, adaptándome a las metodologías de trabajo de una gran entidad corporativa y colaborando en entornos de soporte y gestión informática.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary fw-bold">1 Mes</span></div>
+                    </article>
+                    <article class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Prácticas Profesionales</h3>
+                            <div class="subheading mb-2">TECNICAN S.L</div>
+                            <p class="mb-0">Desempeño de funciones técnicas y de atención directa de cara al público durante un periodo formativo y práctico de 3 meses. Especializado en labores de reparación de equipos informáticos y resolución de incidencias, asegurando un trato excelente y resolutivo con el cliente.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary fw-bold">3 Meses</span></div>
+                    </article>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-4">Formación</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">IES Jacaranda (Brenes)</h3>
+                            <div class="subheading mb-2">Técnico Superior en Desarrollo de Aplicaciones Web</div>
+                            <div>Enfoque en desarrollo Frontend, Backend y despliegue de soluciones web modernas.</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary fw-bold">Cursando Actualmente</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">IES Axati (Lora del Río)</h3>
+                            <div class="subheading mb-2">Técnico en Sistemas Microinformáticos y Redes</div>
+                            <div>Competencias en Gestión de Sistemas en Red, diseño frontend inicial (HTML, CSS, JavaScript) y administración de CMS (WordPress).</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary fw-bold">Completado</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-4">Habilidades</h2>
+                    <div class="subheading mb-2">Herramientas y Lenguajes de Programación</div>
+                    <ul class="list-inline dev-icons icon-size-tech mb-3">
+                        <li class="list-inline-item" title="HTML5"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item" title="CSS3"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item" title="JavaScript"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item" title="Bootstrap"><i class="fab fa-bootstrap"></i></li>
+                        <li class="list-inline-item" title="Python"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item" title="Java"><i class="fab fa-java"></i></li>
+                        <li class="list-inline-item" title="Linux"><i class="fab fa-linux"></i></li>
+                        <li class="list-inline-item" title="Git"><i class="fab fa-git-alt"></i></li>
+                        <li class="list-inline-item" title="WordPress"><i class="fab fa-wordpress"></i></li>
+                        <li class="list-inline-item" title="Node.js"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item" title="AWS"><i class="fab fa-aws"></i></li>
+                        <li class="list-inline-item" title="Docker"><i class="fab fa-docker"></i></li>
+                        <li class="list-inline-item" title="Base de Datos / MySQL"><i class="fas fa-database"></i></li>
+                    </ul>
+                    <div class="subheading mb-2">Aptitudes y Perfil Personal</div>
+                    <ul class="fa-ul mb-0">
+                        <li><span class="fa-li"><i class="fas fa-check" aria-hidden="true"></i></span>Disponibilidad total</li>
+                        <li><span class="fa-li"><i class="fas fa-check" aria-hidden="true"></i></span>Gran capacidad para el trabajo en equipo</li>
+                        <li><span class="fa-li"><i class="fas fa-check" aria-hidden="true"></i></span>Perfil proactivo y alta iniciativa</li>
+                        <li><span class="fa-li"><i class="fas fa-check" aria-hidden="true"></i></span>Profesional responsable, punctual y trabajador</li>
+                        <li><span class="fa-li"><i class="fas fa-check" aria-hidden="true"></i></span>Gestión de Sistemas en Red y soporte informático</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content w-100">
+                    <h2 class="mb-4">Proyectos Destacados</h2>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        
+                        <div class="col">
+                            <div class="card h-100 shadow-sm project-card border-0 bg-light">
+                                <img src="assets/img/project-violencia.jpg" class="card-img-top img-fluid" alt="Captura de pantalla del proyecto sobre concienciación de violencia de género" width="400" height="200" loading="lazy" />
+                                <div class="card-body d-flex flex-column">
+                                    <h3 class="h5 card-title text-primary fw-bold">Plataforma / Análisis: Violencia de Género</h3>
+                                    <p class="card-text text-muted flex-grow-1 small">Aplicación desarrollada con enfoque social e informativo orientada a la concienciación, recopilación o análisis de datos sobre la violencia de género. Estructurado aplicando principios de accesibilidad, diseño limpio y manejo seguro de la información.</p>
+                                    <div class="mb-3">
+                                        <span class="badge bg-secondary mb-1">HTML</span>
+                                        <span class="badge bg-secondary mb-1">CSS</span>
+                                        <span class="badge bg-secondary mb-1">Git</span>
+                                    </div>
+                                    <div class="d-flex flex-wrap gap-2 mt-auto">
+                                        <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalProyecto1" aria-label="Ver galería de imágenes y detalles del proyecto Violencia de Género">
+                                            <i class="fas fa-eye me-1" aria-hidden="true"></i> Ver Detalles
+                                        </button>
+                                        <a href="https://github.com/vmax3187/violencia-genero" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm" aria-label="Ver el repositorio en GitHub">
+                                            <i class="fab fa-github me-1" aria-hidden="true"></i> Código
+                                        </a>
+                                        <a href="https://vmax3187.github.io/violencia-genero/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" aria-label="Ver demo web en vivo">
+                                            <i class="fas fa-external-link-alt me-1" aria-hidden="true"></i> Web
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="card h-100 shadow-sm project-card border-0 bg-light">
+                                <img src="assets/img/project-starwars.jpg" class="card-img-top img-fluid" alt="Captura de pantalla del proyecto interactivo de la Guerra de las Galaxias" width="400" height="200" loading="lazy" />
+                                <div class="card-body d-flex flex-column">
+                                    <h3 class="h5 card-title text-primary fw-bold">Aplicación Web: Guerra de las Galaxias</h3>
+                                    <p class="card-text text-muted flex-grow-1 small">Proyecto técnico interactivo basado en el universo de Star Wars. Enfocado en el renderizado dinámico de componentes, organización estructurada de datos de personajes y naves, y maquetación fluida y adaptativa para dispositivos móviles.</p>
+                                    <div class="mb-3">
+                                        <span class="badge bg-secondary mb-1">JavaScript</span>
+                                        <span class="badge bg-secondary mb-1">HTML</span>
+                                        <span class="badge bg-secondary mb-1">CSS</span>
+                                    </div>
+                                    <div class="d-flex flex-wrap gap-2 mt-auto">
+                                        <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalProyecto2" aria-label="Ver galería de imágenes y detalles del proyecto Star Wars">
+                                            <i class="fas fa-eye me-1" aria-hidden="true"></i> Ver Detalles
+                                        </button>
+                                        <a href="https://github.com/vmax3187/TrabajoGuerraDeLaEstrellas" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm" aria-label="Ver el repositorio en GitHub">
+                                            <i class="fab fa-github me-1" aria-hidden="true"></i> Código
+                                        </a>
+                                        <a href="https://vmax3187.github.io/TrabajoGuerraDeLaEstrellas/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" aria-label="Ver demo web en vivo">
+                                            <i class="fas fa-external-link-alt me-1" aria-hidden="true"></i> Web
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <section class="resume-section" id="languages">
+                <div class="resume-section-content">
+                    <h2 class="mb-4">Idiomas</h2>
+                    <div class="mb-3 max-w-600">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">Español (Nativo)</span>
+                            <span class="text-muted fw-bold">100%</span>
+                        </div>
+                        <div class="progress progress-custom-height">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" aria-label="Nivel de español: Nativo"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3 max-w-600">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-bold">Inglés (Competencias profesionales básicas)</span>
+                            <span class="text-muted fw-bold">40%</span>
+                        </div>
+                        <div class="progress progress-custom-height">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="Nivel de inglés: Básico profesional"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">
+                    <h2 class="mb-4">Contacto</h2>
+                    <p class="lead text-muted mb-4">¿Tienes alguna propuesta de proyecto o quieres incorporarme a tu equipo de desarrollo? Rellena el formulario o escríbeme directamente.</p>
+                    
+                    <div class="max-w-600 bg-light p-4 rounded shadow-sm">
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="formName" class="form-label fw-bold">Nombre Completo</label>
+                                <input type="text" class="form-control" id="formName" placeholder="Ej. Juan Pérez" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="formEmail" class="form-label fw-bold">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="formEmail" placeholder="nombre@empresa.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="formSubject" class="form-label fw-bold">Asunto</label>
+                                <input type="text" class="form-control" id="formSubject" placeholder="Ej. Propuesta de entrevista / Colaboración" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="formMessage" class="form-label fw-bold">Mensaje</label>
+                                <textarea class="form-control" id="formMessage" rows="4" placeholder="Escribe los detalles aquí..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 py-2 fw-bold">
+                                <i class="fas fa-paper-plane me-2" aria-hidden="true"></i> Enviar Mensaje
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <div class="modal fade" id="modalProyecto1" tabindex="-1" aria-labelledby="modalProyecto1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title fw-bold text-primary" id="modalProyecto1Label">Detalles: Violencia de Género</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselProyecto1" class="carousel slide mb-3 shadow-sm rounded overflow-hidden" data-bs-ride="carousel">
+                            <div class="carousel-inner bg-dark">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/project-violencia.jpg" class="d-block w-100 carousel-img-fixed" alt="Vista de la sección de análisis del proyecto">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/project-violencia.jpg" class="d-block w-100 carousel-img-fixed" alt="Vista móvil adaptativa de la plataforma">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyecto1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProyecto1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                        <h5 class="fw-bold mt-3">Sobre la solución implementada:</h5>
+                        <p>Este espacio digital centraliza estadísticas clave y guías informativas interactivas. El desarrollo minimiza el uso de scripts pesados, garantizando tiempos de respuesta mínimos e interfaces sumamente accesibles desde cualquier terminal móvil o de escritorio.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar ventana</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalProyecto2" tabindex="-1" aria-labelledby="modalProyecto2Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title fw-bold text-primary" id="modalProyecto2Label">Detalles: Guerra de las Galaxias</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselProyecto2" class="carousel slide mb-3 shadow-sm rounded overflow-hidden" data-bs-ride="carousel">
+                            <div class="carousel-inner bg-dark">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/project-starwars.jpg" class="d-block w-100 carousel-img-fixed" alt="Explorador de naves de Star Wars">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/project-starwars.jpg" class="d-block w-100 carousel-img-fixed" alt="Filtro dinámico de personajes">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyecto2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProyecto2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                        <h5 class="fw-bold mt-3">Sobre la solución implementada:</h5>
+                        <p>El núcleo de la aplicación gestiona listas complejas mediante arrays e inyección dinâmica en el DOM (Document Object Model). El diseño estético aprovecha la flexibilidad del framework Bootstrap para lograr una tematización limpia e inmersiva.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar ventana</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const navLinks = document.querySelectorAll('#navbarNavList .nav-link');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function () {
+                        navLinks.forEach(el => el.classList.remove('active'));
+                        this.classList.add('active');
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
